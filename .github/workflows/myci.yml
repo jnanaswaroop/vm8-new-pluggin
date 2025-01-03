@@ -41,7 +41,7 @@ jobs:
       # Run the script
       - name: Run script
         run: |
-          python app.py > output.txt
+          python myapp.py > output.txt
 
       # Upload artifacts
       - name: Upload artifacts
