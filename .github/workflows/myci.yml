@@ -45,7 +45,7 @@ jobs:
 
       # Upload artifacts
       - name: Upload artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: app-output
           path: output.txt
@@ -58,7 +58,7 @@ jobs:
     steps:
       # Download artifacts
       - name: Download artifacts
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: app-output
 
