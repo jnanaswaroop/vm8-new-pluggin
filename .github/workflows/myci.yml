@@ -6,9 +6,9 @@ on: # Trigger events
     branches:
       - main
       - update-deprecated-actions
-  pull_request:
-    branches:
-      - main
+  # pull_request:
+  #   branches:
+  #     - main
   workflow_dispatch: # Allow manual triggers
 
 jobs:
